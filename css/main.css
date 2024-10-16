@@ -1,0 +1,95 @@
+/* Estilos principales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 130px;
+}
+
+/* Imagen de pantalla completa */
+.fullscreen-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden; /* Asegura que solo se vea una imagen a la vez */
+    max-width: 800px; /* Establece un ancho máximo para el carrusel */
+    margin: auto; /* Centra el carrusel en la página */
+}
+
+.carousel-images {
+    display: flex; /* Asegura que las imágenes estén en una fila */
+    transition: transform 0.5s ease; /* Animación suave al cambiar de imagen */
+}
+
+.carousel-image {
+    min-width: 100%; /* Cada imagen ocupará el 100% del ancho del carrusel */
+    max-height: 500px; /* Establece una altura máxima para todas las imágenes */
+    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+}
+
+.carousel-container {
+    position: relative; /* Necesario para colocar la imagen de fondo */
+    max-width: 3000px; /* Ancho máximo del carrusel */
+    margin: 20px auto; /* Centra el contenedor */
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-piso-madera_53876-88628.jpg'); /* Cambia este enlace por tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    padding: 20px; /* Espaciado interno si es necesario */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para un efecto visual */
+}
+
+button.prev, button.next {
+    position: absolute; /* Posiciona los botones en el carrusel */
+    top: 50%; /* Centra los botones verticalmente */
+    transform: translateY(-50%); /* Ajusta la posición de los botones */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+}
+
+button.prev {
+    left: 10px; /* Posiciona el botón anterior a la izquierda */
+}
+
+button.next {
+    right: 10px; /* Posiciona el botón siguiente a la derecha */
+}
+
+
+/* Media Queries para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
