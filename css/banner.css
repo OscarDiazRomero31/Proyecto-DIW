@@ -10,10 +10,9 @@ body {
 
 /* Estilos para el banner */
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #D9CBB6;
+    padding: 5px ;
+    text-align: left;
 }
 
 nav {
@@ -46,10 +45,11 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.banner-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.banner-logo {
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 80px;
+    height: 80px;
 }
 
 /* Responsive para el banner */
