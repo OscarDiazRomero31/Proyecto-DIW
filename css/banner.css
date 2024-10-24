@@ -8,9 +8,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para el banner */
 header {
-    background-color: #D9CBB6;
+    background-color: #d9cbb6;
     padding: 5px ;
     text-align: left;
 }
@@ -18,7 +17,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #4A7C2A;
 }
 
 nav ul {
@@ -29,6 +28,7 @@ nav ul {
 }
 
 nav ul li {
+    padding: 10px ;
     margin: 0 15px;
 }
 
@@ -40,19 +40,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #3b6523;
+    color: white;
     border-radius: 5px;
 }
 
 .banner-logo {
     border-radius: 10px;
-    margin-left: 5px;
+    margin: 2px 0 2px 5px;
     width: 80px;
     height: 80px;
+    text-align: left;
 }
 
-/* Responsive para el banner */
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
