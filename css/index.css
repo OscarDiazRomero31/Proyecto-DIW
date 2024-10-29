@@ -78,6 +78,7 @@ p {
 .offer {
     width: 30%; /* Ajusta el ancho de cada oferta */
     margin: 10px; /* Espaciado entre ofertas */
+    
 }
 
 .btn-offers {
