@@ -1,43 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes por la Tierra Media</title>
-    <link rel="stylesheet" href="header.css"> <!-- CSS del header -->
-    <link rel="stylesheet" href="footer.css"> <!-- CSS del footer -->
-    <link rel="stylesheet" href="home.css">   <!-- CSS de la página de inicio -->
+    <link rel="stylesheet" href="../css/header.css"> <!-- CSS del header -->
+    <link rel="stylesheet" href="../css/footer.css"> <!-- CSS del footer -->
+    <link rel="stylesheet" href="../css/home.css"> <!-- CSS de la página de inicio -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <!-- Aquí iría el contenido de la página -->
-      <!-- Header: Encabezado que incluye el logo y la navegación principal -->
+    <!-- Header: Encabezado que incluye el logo y la navegación principal -->
     <header>
         <div class="logo"> <!-- Contenedor del logo de la agencia -->
-            <img src="logo.png" alt="Logo Viajes Tierra Media"> <!-- Imagen del logo con un texto alternativo -->
+            <img src="../img/logo.jpg" alt="Logo Viajes Tierra Media"> <!-- Imagen del logo con un texto alternativo -->
         </div>
         <nav> <!-- Contenedor de la barra de navegación -->
             <ul class="nav-links"> <!-- Lista de enlaces de navegación -->
-                <li><a href="home.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
-                <li><a href="servicios.html">Servicios</a></li> <!-- Enlace a la página de servicios -->
-                <li><a href="destinos.html">Destinos</a></li> <!-- Enlace a la página de destinos -->
-                <li><a href="testimonios.html">Testimonios</a></li> <!-- Enlace a la página de testimonios -->
+                <li><a href="../html/inicio.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="../html/destinos.html">Destinos</a></li> <!-- Enlace a la página de destinos -->
+                <li><a href="paquetes.html">Paquetes</a></li> <!-- Enlace a la página de Paquetes -->
                 <li><a href="equipo.html">Equipo</a></li> <!-- Enlace a la página de equipo -->
+                <li><a href="alojamiento.html">Equipo</a></li> <!-- Enlace a la página de alojamiento -->
                 <li><a href="contacto.html">Contacto</a></li> <!-- Enlace a la página de contacto -->
+                <li><a href="tienda.html">Tienda</a></li> <!-- Enlace a la página de tienda -->
+                <li><a href="blog.html">Blog</a></li> <!-- Enlace a la página de blog -->
+
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <h1>Explora la Tierra Media</h1>
+        <p>Embárcate en una aventura única por los legendarios paisajes de la Tierra Media.</p>
+        <div class="cta-buttons">
+            <a href="#paquetes">Explorar Paquetes</a>
+            <a href="#testimonios">Ver Testimonios</a>
+        </div>
+    </section>
+
+    <!-- Sección de Destinos Populares -->
+    <section id="destinos" class="destinos-populares">
+        <h2>Destinos Populares</h2>
+
+        <div class="destino">
+            <img src="../img/rivendell.webp" alt="Rivendel">
+            <h3>Rivendel</h3>
+            <p>Rivendel, el refugio oculto de los elfos, es un lugar de paz y sabiduría profunda. Situado en un valle
+                rodeado de altas montañas y cascadas brillantes, Rivendel ofrece una atmósfera mística y atemporal.
+                Aquí, los viajeros pueden explorar las antiguas bibliotecas y disfrutar de las melodías elficas,
+                mientras se empapan de la historia y las leyendas que guardan los muros de este majestuoso lugar.</p>
+        </div>
+
+        <div class="destino">
+            <img src="../img/comarca.webp" alt="La Comarca">
+            <h3>La Comarca</h3>
+            <p>La Comarca, con sus verdes colinas y pintorescas casas hobbit, es un símbolo de tranquilidad y vida
+                sencilla. Hogar de los hobbits, este encantador lugar invita a los viajeros a disfrutar de la
+                hospitalidad, las festividades y el famoso ale de la Taberna del Dragón Verde. Pasea por sus huertos y
+                jardines floridos, o únete a una fiesta hobbit para conocer más sobre esta encantadora comunidad y su
+                estilo de vida pacífico.</p>
+        </div>
+
+        <div class="destino">
+            <img src="../img/mordor.webp" alt="Mordor">
+            <h3>Mordor</h3>
+            <p>Mordor, un territorio inhóspito y tenebroso, es el reino del Señor Oscuro Sauron. Este paisaje volcánico
+                y desolado, lleno de peligros y misterios, solo es apto para los viajeros más valientes. Desde el
+                imponente Monte del Destino hasta las tierras áridas y oscuras, Mordor ofrece una experiencia
+                sobrecogedora, donde los ecos de la guerra y la sombra aún persisten. Para los intrépidos, este es el
+                lugar para enfrentar sus miedos y explorar la leyenda viva de la Tierra Media.</p>
+        </div>
+
+        <div>
+            <a href="destinos.html" class="button">Ver todos los destinos</a>
+        </div>
+
+    </section>
+
+    <!-- Sección de Paquetes de Viaje -->
+    <section id="paquetes" class="paquetes-viaje">
+        <h2>Paquetes de Viaje</h2>
+
+        <div class="paquetes-contenedor">
+            <div class="paquete">
+                <img src="../img/ruta-anillo.webp" alt="La Ruta del Anillo">
+                <h3>La Ruta del Anillo</h3>
+                <p>Desde La Comarca hasta el Monte del Destino, sigue los pasos de Frodo y la Comunidad del Anillo.</p>
+            </div>
+
+            <div class="paquete">
+                <img src="../img/montañas.webp" alt="Expedición a las Montañas Nubladas">
+                <h3>Expedición a las Montañas Nubladas</h3>
+                <p>Explora las tierras del norte y descubre los secretos de las Montañas Nubladas.</p>
+            </div>
+
+            <div class="paquete">
+                <img src="../img/tour-elfico.webp" alt="Tour Élfico en Lothlórien">
+                <h3>Tour Élfico en Lothlórien</h3>
+                <p>Una experiencia mágica en el reino de los elfos. Conoce sus misterios y su historia.</p>
+            </div>
+        </div>
+        <div class="ver-todos">
+            <a href="paquetes.html" class="button">Ver todos los paquetes</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="servicios">
+        <h2>Lo que Ofrecemos</h2>
+
+        <div class="servicios-contenedor">
+            <div class="servicio">
+                <img src="../img/tour.webp" alt="Tours Guiados">
+                <div class="servicio-texto">
+                    <h3>Tours Guiados</h3>
+                    <p>Explora la Tierra Media con guías expertos que conocen cada rincón y cada historia.</p>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="../img/alojamientos.webp" alt="Alojamiento Seguro">
+                <div class="servicio-texto">
+                    <h3>Alojamiento Seguro</h3>
+                    <p>Hospedaje seguro en posadas y refugios, garantizando tu comodidad y descanso.</p>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="../img/tour-especiales.webp" alt="Guías Especiales">
+                <div class="servicio-texto">
+                    <h3>Guías Especiales</h3>
+                    <p>Elige acompañantes únicos como magos o elfos para vivir una experiencia mágica.</p>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="../img/eventos.webp" alt="Experiencias Únicas">
+                <div class="servicio-texto">
+                    <h3>Experiencias Únicas</h3>
+                    <p>Disfruta de eventos exclusivos y momentos inolvidables en cada aventura.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Guías Especiales -->
+    <section id="guias" class="guias-especiales">
+        <h2>Guías Especiales</h2>
+
+        <div class="guia">
+            <img src="../img/gandalf.webp" alt="Gandalf">
+            <h3>Gandalf el Gris</h3>
+            <p>Un poderoso mago con vasto conocimiento y sabiduría. Con Gandalf como guía, explora los rincones más
+                místicos de la Tierra Media. Perfecto para los aventureros y amantes de la historia antigua.</p>
+        </div>
+
+        <div class="guia">
+            <img src="../img/bilbo.webp" alt="Bilbo Baggins">
+            <h3>Bilbo Baggins</h3>
+            <p>El hobbit aventurero que desafió las expectativas de su pueblo. Bilbo te guiará por rutas seguras y
+                tranquilas, revelándote historias de aventuras y enseñanzas sobre la vida en la Tierra Media.</p>
+        </div>
+
+        <div class="guia">
+            <img src="../img/legolas.webp" alt="Legolas">
+            <h3>Legolas</h3>
+            <p>El elfo del Bosque Negro es un experto en supervivencia y navegación por los bosques. Con Legolas, podrás
+                conocer los secretos de la naturaleza y explorar los reinos élficos con una visión privilegiada.</p>
+        </div>
+
+        <div>
+            <a href="equipo.html" class="button">Ver todos los guías</a>
+        </div>
+
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="testimonios">
+        <h2>Testimonios de Nuestros Viajeros</h2>
+        <div class="testimonial">
+            <p>"Un viaje inolvidable. Caminar por La Comarca fue como estar en un sueño."</p>
+            <p class="autor">- Chiquito de la Calzado</p>
+        </div>
+        <div class="testimonial">
+            <p>"Rivendel es el lugar más hermoso que he visto. Cada rincón guarda un misterio."</p>
+            <p class="autor">- Fernando Alonso</p>
+        </div>
+        <div class="testimonial">
+            <p>"Si buscas aventura y belleza, este es el viaje que necesitas. No me arrepiento de nada."</p>
+            <p class="autor">- El Rey Emerito</p>
+        </div>
+    </section>
+
+
     <!-- Footer: Pie de página que contiene información adicional y enlaces a redes sociales -->
     <footer>
-        <div class="footer-content"> <!-- Contenedor principal del contenido del footer -->
-            <p>&copy; 2024 Viajes por la Tierra Media. Todos los derechos reservados.</p> <!-- Texto de derechos reservados -->
-            <p>Síguenos en redes sociales:</p> <!-- Mensaje invitando a seguir en redes sociales -->
-            <div class="social-icons"> <!-- Contenedor de los iconos de redes sociales -->
-                <a href="#"><img src="icono-facebook.png" alt="Facebook"></a> <!-- Enlace al perfil de Facebook con icono -->
-                <a href="#"><img src="icono-twitter.png" alt="Twitter"></a> <!-- Enlace al perfil de Twitter con icono -->
-                <a href="#"><img src="icono-instagram.png" alt="Instagram"></a> <!-- Enlace al perfil de Instagram con icono -->
+        <div class="footer-content">
+            <p>&copy; 2024 Viajes por la Tierra Media. Todos los derechos reservados.</p>
+            <p>Síguenos en redes sociales:</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

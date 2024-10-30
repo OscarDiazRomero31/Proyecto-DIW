@@ -1,0 +1,62 @@
+/* Estilo para la página principal de Destinos */
+.destinos {
+    background-color: #f4f4f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destinos h2 {
+    font-size: 36px;
+    color: #2b3a3f;
+    margin-bottom: 24px;
+}
+
+.destinos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.destino {
+    background-color: #e0d8c3;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.destino h3 {
+    font-size: 24px;
+    color: #4a4e54;
+}
+
+.destino p {
+    font-size: 16px;
+    color: #4a4e54;
+    margin: 8px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #a17a31;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #7f6122;
+}
