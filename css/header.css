@@ -1,0 +1,38 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del Header */
+header {
+    display: flex; /* Flexbox para alinear elementos en fila */
+    justify-content: space-between; /* Logo a la izquierda, navegación a la derecha */
+    align-items: center; /* Alineación vertical al centro */
+    padding: 1rem 2rem; /* Espaciado interno */
+    background-color: #2e3b4e; /* Color de fondo del header */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+header .logo img {
+    width: 120px; /* Tamaño del logo */
+}
+
+/* Estilos para la navegación */
+nav .nav-links {
+    list-style: none; /* Quita las viñetas de la lista */
+    display: flex; /* Coloca los enlaces en fila */
+    gap: 1.5rem; /* Espaciado entre enlaces */
+}
+
+nav .nav-links a {
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+nav .nav-links a:hover {
+    color: #e0a106; /* Color dorado al hacer hover */
+}

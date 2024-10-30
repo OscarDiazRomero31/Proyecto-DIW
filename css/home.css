@@ -1,0 +1,50 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para la sección del banner principal */
+.hero-banner {
+    background-image: url('banner-image.jpg'); /* Imagen de fondo para el banner */
+    background-size: cover; /* Cubre toda la sección */
+    background-position: center; /* Centra la imagen */
+    height: 90vh; /* Altura de la sección */
+    display: flex; /* Flexbox para centrar contenido */
+    flex-direction: column; /* Dirección de elementos en columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    color: #ffffff; /* Color de texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 2rem; /* Espaciado interno */
+}
+
+.hero-banner h1 {
+    font-size: 3rem; /* Tamaño del título */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+.hero-banner p {
+    font-size: 1.5rem; /* Tamaño de subtítulo */
+    margin-bottom: 2rem; /* Espacio inferior */
+}
+
+.hero-banner .cta-buttons {
+    display: flex; /* Flexbox para los botones */
+    gap: 1rem; /* Espacio entre botones */
+}
+
+.hero-banner .cta-buttons a {
+    background-color: #e0a106; /* Fondo dorado para los botones */
+    color: #ffffff; /* Texto blanco */
+    padding: 0.8rem 1.5rem; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: background-color 0.3s; /* Transición en el hover */
+}
+
+.hero-banner .cta-buttons a:hover {
+    background-color: #b07d04; /* Color más oscuro en hover */
+}

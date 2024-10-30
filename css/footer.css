@@ -1,48 +1,35 @@
-/* Estilos para el footer */
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del Footer */
 footer {
-    background-color: #4A7C2A;
-    color: white; /* Color del texto en el footer */
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 50px;
+    background-color: #2e3b4e; /* Fondo del footer */
+    color: #ffffff; /* Color del texto */
+    padding: 1.5rem 2rem; /* Espaciado interno */
+    text-align: center; /* Alineación centrada del texto */
 }
 
-footer .footer-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer-content p {
+    margin: 0.5rem 0; /* Margen entre líneas de texto */
 }
 
-footer .footer-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+/* Estilos para iconos de redes sociales */
+.social-icons {
+    display: flex; /* Flexbox para fila */
+    justify-content: center; /* Centra los iconos */
+    gap: 1rem; /* Espacio entre iconos */
+    margin-top: 1rem; /* Margen superior para separación */
 }
 
-footer .footer-links a {
-    color: white; /* Color de los enlaces */
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 16px;
+.social-icons a img {
+    width: 24px; /* Tamaño de iconos de redes sociales */
+    transition: transform 0.3s; /* Efecto de transición suave */
 }
 
-footer .footer-links a:hover {
-    color: #ddd; /* Color al pasar el ratón (opcional) */
-}
-
-footer p {
-    font-size: 14px;
-    color: white; /* Asegura que el texto de los párrafos sea blanco */
-}
-
-/* Responsive para el footer */
-@media (max-width: 768px) {
-    footer .footer-links {
-        flex-direction: column;
-    }
-
-    footer .footer-links a {
-        margin: 10px 0;
-    }
+.social-icons a:hover img {
+    transform: scale(1.1); /* Efecto zoom en hover */
 }
