@@ -1,4 +1,3 @@
-/* Estilos para el contenido principal */
 main {
     padding: 20px;
 }
@@ -52,6 +51,12 @@ h2{
     text-align: center; /* Centrar el texto */
 }
 
+.button-container {
+    display: flex; /* Usar flexbox */
+    justify-content: space-around; /* Espaciado igual entre botones */
+    
+}
+
 img {
     border-radius: 8px; /* Bordes redondeados para la imagen */
     margin-bottom: 20px; /* Espaciado inferior */
@@ -60,7 +65,7 @@ img {
 p {
     font-size: 1.2em; /* Tamaño de fuente del párrafo */
     line-height: 1.6; /* Altura de línea para mejor legibilidad */
-    color: #34495e; /* Color del texto */
+    color: white; /* Color del texto */
     text-align: justify; /* Justificar el texto */
 }
 
@@ -88,11 +93,58 @@ p {
     color: white; /* Color del texto */
     text-decoration: none; /* Sin subrayado */
     border-radius: 5px; /* Bordes redondeados */
-    margin-top: 10px; /* Espaciado superior */
+    margin-top: 0; /* Espaciado superior */
+    margin-bottom: 0; /* Espaciado inferior */
+    margin-left: 130px; /* Espaciado izquierdo */
+    margin-right: 130px; /* Espaciado derecho */
 }
 
 .btn-offers:hover {
     background-color: #3b6523; /* Color más oscuro al pasar el ratón */
+}
+
+.nueva-seccion {
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start; /* Alinear al inicio */
+}
+
+.image-bottom {
+    margin-right: 20px; /* Espacio entre imagen y texto */
+}
+
+.text-right {
+    text-align: center;
+}
+
+.text-left {
+    flex: 1; /* Permite que el texto ocupe el espacio disponible */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.btn-explorar {
+    display: inline-block;
+    background-color: #4A7C2A; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn-explorar:hover {
+    background-color: #3b6523; /* Color al pasar el ratón */
+}
+
+.h2-tienda{
+    text-align: left;
+}
+
+.h2-blog{
+    text-align: left;
 }
 
 
