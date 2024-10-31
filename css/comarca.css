@@ -1,0 +1,79 @@
+/* Estilo general para la sección de destino */
+.destino-detalle {
+    background-color: #f7f5eb; /* Fondo beige claro */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destino-detalle h2 {
+    font-size: 36px;
+    color: #2b5d34; /* Verde bosque */
+    margin-bottom: 24px;
+}
+
+/* Contenedor de detalles */
+.detalle-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.detalle-contenedor p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a3b2b; /* Marrón tierra */
+    margin-bottom: 20px;
+}
+
+/* Collage de imágenes */
+.collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.collage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s;
+}
+
+.collage img:hover {
+    transform: scale(1.05); /* Efecto zoom en hover */
+}
+
+/* Estilo para el botón de reservar */
+.boton-reserva {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #a17a31; /* Fondo dorado envejecido */
+    color: #ffffff; /* Texto blanco */
+    padding: 12px 24px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #7f6122; /* Color dorado más oscuro en hover */
+}
+
+
+/* Adaptabilidad para móviles */
+@media (max-width: 768px) {
+    .collage {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+
+    .detalle-contenedor {
+        padding: 0 10px; /* Ajuste de padding en móvil */
+    }
+}

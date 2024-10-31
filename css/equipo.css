@@ -1,0 +1,72 @@
+/* Estilo general para la sección de equipo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0e4; /* Fondo beige claro */
+    color: #333;
+    margin: 0;
+}
+
+.equipo {
+    text-align: center;
+    padding: 20px;
+}
+
+.equipo h1 {
+    font-size: 40px;
+    color: #5e4529; /* Marrón oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada grupo de guías */
+.grupo {
+    background-color: #fff;
+    border: 2px solid #c3a985; /* Borde marrón claro */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s;
+}
+
+.grupo:hover {
+    transform: scale(1.05); /* Efecto hover */
+}
+
+/* Estilo para el enlace dentro de cada grupo */
+.grupo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.grupo h2 {
+    font-size: 28px;
+    color: #5e4529; /* Marrón oscuro */
+}
+
+.grupo p {
+    font-size: 16px;
+    color: #4a4a4a; /* Gris oscuro */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: #f3f0e4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: #f3f0e4;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #a37c40; /* Marrón dorado en hover */
+}

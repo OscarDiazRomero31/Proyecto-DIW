@@ -1,0 +1,85 @@
+/* Estilo general para la sección de paquetes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0e4; /* Fondo beige claro */
+    color: #333;
+    margin: 0;
+}
+
+.paquetes {
+    text-align: center;
+    padding: 20px;
+}
+
+.paquetes h1 {
+    font-size: 40px;
+    color: #5e4529; /* Marrón oscuro */
+    margin-bottom: 40px;
+}
+
+/* Estilo para cada paquete */
+.paquete {
+    background-color: #fff;
+    border: 2px solid #c3a985; /* Borde marrón claro */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s;
+}
+
+.paquete:hover {
+    transform: scale(1.02); /* Efecto hover */
+}
+
+.paquete h2 {
+    font-size: 28px;
+    color: #5e4529; /* Marrón oscuro */
+}
+
+.paquete p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo para el botón de contratar */
+.button {
+    background-color: #a37c40; /* Marrón dorado */
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #8a5f33; /* Marrón más oscuro en hover */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: #f3f0e4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: #f3f0e4;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #a37c40; /* Marrón dorado en hover */
+}
