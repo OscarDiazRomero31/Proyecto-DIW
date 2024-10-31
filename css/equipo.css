@@ -1,72 +1,61 @@
-/* Estilo general para la sección de equipo */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f0e4; /* Fondo beige claro */
-    color: #333;
-    margin: 0;
-}
-
 .equipo {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
-    padding: 20px;
 }
 
-.equipo h1 {
-    font-size: 40px;
-    color: #5e4529; /* Marrón oscuro */
-    margin-bottom: 20px;
-}
-
-/* Estilo para cada grupo de guías */
 .grupo {
-    background-color: #fff;
-    border: 2px solid #c3a985; /* Borde marrón claro */
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    transition: transform 0.3s;
-}
-
-.grupo:hover {
-    transform: scale(1.05); /* Efecto hover */
-}
-
-/* Estilo para el enlace dentro de cada grupo */
-.grupo-link {
-    text-decoration: none;
-    color: inherit;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    box-sizing: border-box;
 }
 
 .grupo h2 {
-    font-size: 28px;
-    color: #5e4529; /* Marrón oscuro */
-}
-
-.grupo p {
-    font-size: 16px;
-    color: #4a4a4a; /* Gris oscuro */
-}
-
-/* Estilo para el footer */
-footer {
-    background-color: #333;
-    color: #f3f0e4;
-    padding: 20px;
+    font-size: 2em;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.footer-content p {
+.guia-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.guia {
+    flex: 1 1 100%; /* Ocupa todo el ancho de la pantalla en pantallas pequeñas */
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.guia img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 300px; /* Alto fijo para mantener el mismo tamaño en todas */
+    border-radius: 10px;
+    object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarse */
+}
+
+.guia h3 {
+    font-size: 1.5em;
     margin: 10px 0;
 }
 
-.social-icons a {
-    color: #f3f0e4;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
+.guia p {
+    font-size: 1em;
+    color: #666;
 }
 
-.social-icons a:hover {
-    color: #a37c40; /* Marrón dorado en hover */
+@media (min-width: 768px) {
+    .guia {
+        flex: 1 1 45%; /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .guia {
+        flex: 1 1 30%; /* Tres columnas en pantallas grandes */
+    }
 }

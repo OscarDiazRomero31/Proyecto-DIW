@@ -1,6 +1,5 @@
 /* Estilo general para la sección de paquetes */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f3f0e4; /* Fondo beige claro */
     color: #333;
     margin: 0;
@@ -61,25 +60,3 @@ body {
     background-color: #8a5f33; /* Marrón más oscuro en hover */
 }
 
-/* Estilo para el footer */
-footer {
-    background-color: #333;
-    color: #f3f0e4;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-content p {
-    margin: 10px 0;
-}
-
-.social-icons a {
-    color: #f3f0e4;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #a37c40; /* Marrón dorado en hover */
-}

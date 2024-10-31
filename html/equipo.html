@@ -13,80 +13,171 @@
 <body>
     <!-- Header: Encabezado que incluye el logo y la navegación principal -->
     <header>
-        <div class="logo">
-            <img src="../img/logo.jpg" alt="Logo Viajes Tierra Media">
+        <div class="logo"> <!-- Contenedor del logo de la agencia -->
+            <img src="../img/logo.jpg" alt="Logo Viajes Tierra Media"> <!-- Imagen del logo con un texto alternativo -->
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="destinos.html">Destinos</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="blog.html">Blog</a></li>
+        <nav> <!-- Contenedor de la barra de navegación -->
+            <ul class="nav-links"> <!-- Lista de enlaces de navegación -->
+                <li><a href="../html/inicio.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="../html/destinos.html">Destinos</a></li> <!-- Enlace a la página de destinos -->
+                <li><a href="../html/paquetes.html">Paquetes</a></li> <!-- Enlace a la página de Paquetes -->
+                <li><a href="equipo.html">Equipo</a></li> <!-- Enlace a la página de equipo -->
+                <li><a href="alojamiento.html">Alojamiento</a></li> <!-- Enlace a la página de alojamiento -->
+                <li><a href="contacto.html">Contacto</a></li> <!-- Enlace a la página de contacto -->
+                <li><a href="tienda.html">Tienda</a></li> <!-- Enlace a la página de tienda -->
+                <li><a href="blog.html">Blog</a></li> <!-- Enlace a la página de blog -->
+
             </ul>
         </nav>
     </header>
 
-    <!-- Página de Equipos de Guías -->
+    <!-- Página de Equipo de Guías -->
     <section id="equipo" class="equipo">
         <h1>Equipo de Guías</h1>
-        <p>Selecciona un grupo de guías para ver los detalles y conocer más sobre nuestros expertos.</p>
 
+        <!-- Grupo de Hombres -->
         <div class="grupo">
-            <a href="hombres.html" class="grupo-link">
-                <h2>Hombres</h2>
-                <p>Valientes y conocedores de la Tierra Media.</p>
-            </a>
+            <h2>Hombres</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://static.posters.cz/image/750/art-photo/aragorn-i142865.jpg" alt="Aragorn">
+                    <h3>Aragorn</h3>
+                    <p>Experto en rastreo y combate. Conoce cada rincón de la Tierra Media.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIIVYXAoo8NCVYQsz28peDXTnLMZnwXufEq3cCys4PFecGLcysmLvzgKRKrhsuqkDIvNVg8l8Nu5BrYsm8M1XS8rnNuHrj5olMDo48QxI" alt="Boromir">
+                    <h3>Boromir</h3>
+                    <p>Valiente guerrero de Gondor, ofrece seguridad en los territorios del sur.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://sm.ign.com/ign_es/screenshot/default/faramir_fy2w.jpg" alt="Faramir">
+                    <h3>Faramir</h3>
+                    <p>Hermano de Boromir, experto en estrategias y defensa de Gondor.</p>
+                </div>
+            </div>
         </div>
 
+        <!-- Grupo de Magos -->
         <div class="grupo">
-            <a href="magos.html" class="grupo-link">
-                <h2>Magos</h2>
-                <p>Maestros en sabiduría y artes místicas.</p>
-            </a>
+            <h2>Magos</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://sm.ign.com/t/ign_latam/screenshot/default/gandalf-tlotr_me68.1280.jpg" alt="Gandalf">
+                    <h3>Gandalf</h3>
+                    <p>Mago sabio y poderoso, guía por senderos místicos y peligrosos.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://static.wikia.nocookie.net/bibliotecadelatierramedia/images/e/e3/Radagast.jpg/revision/latest?cb=20140914104841&path-prefix=es" alt="Radagast">
+                    <h3>Radagast</h3>
+                    <p>Protector de la naturaleza, experto en flora y fauna de la Tierra Media.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://external-preview.redd.it/christopher-lee-returns-as-saruman-in-lord-of-the-rings-war-v0-WAtVunpbaDZEN8DXGuFI4kIVapkmS-jDUX2J0tznjUo.jpg?auto=webp&s=f96c5e3795544da631abc17d318f4934fa0f1d9f" alt="Saruman">
+                    <h3>Saruman</h3>
+                    <p>Antiguo líder de los magos, conoce secretos de la Tierra Media.</p>
+                </div>
+            </div>
         </div>
 
+        <!-- Grupo de Hobbits -->
         <div class="grupo">
-            <a href="hobbits.html" class="grupo-link">
-                <h2>Hobbits</h2>
-                <p>Expertos en tranquilidad y rutas pacíficas.</p>
-            </a>
+            <h2>Hobbits</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://static.wikia.nocookie.net/eldragonverde/images/d/d7/Frodo_2.png/revision/latest/thumbnail/width/360/height/360?cb=20130111173851&path-prefix=es" alt="Frodo Baggins">
+                    <h3>Frodo Baggins</h3>
+                    <p>Valiente portador del anillo, con conocimiento de La Comarca y sus alrededores.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/el-senor-de-los-anillos-sam-4-1548846148.jpg" alt="Samwise Gamgee">
+                    <h3>Samwise Gamgee</h3>
+                    <p>Fiel compañero y experto en jardinería, guía perfecto para rutas pacíficas.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/series-television/dominic-monaghan-merry-volver-tierra-media-el-senor-de-los-anillos-amazon/138100443-1-esl-ES/Dominic-Monaghan-Merry-quiere-volver-a-la-Tierra-Media-en-la-serie-de-El-senor-de-los-anillos.jpg" alt="Merry">
+                    <h3>Meriadoc Brandybuck</h3>
+                    <p>Intrépido explorador, experto en zonas pacíficas de la Tierra Media.</p>
+                </div>
+            </div>
         </div>
 
+        <!-- Grupo de Elfos -->
         <div class="grupo">
-            <a href="elfos.html" class="grupo-link">
-                <h2>Elfos</h2>
-                <p>Guardianes de la naturaleza y expertos en arquería.</p>
-            </a>
+            <h2>Elfos</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://static.wikia.nocookie.net/sranillos/images/5/5f/Legolas_frown.jpg/revision/latest/scale-to-width-down/800?cb=20101009185601&path-prefix=es" alt="Legolas">
+                    <h3>Legolas</h3>
+                    <p>Experto en arquería y naturaleza, conoce cada rincón de los bosques élficos.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://static.wikia.nocookie.net/pjmidearthfilms/images/0/0a/THRANDY.jpg/revision/latest/scale-to-width-down/1200?cb=20200706115156" alt="Thranduil">
+                    <h3>Thranduil</h3>
+                    <p>Rey del Bosque Negro, experto en la cultura y reinos élficos.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://static.wikia.nocookie.net/lotr/images/c/cb/Galadriel.jpg/revision/latest?cb=20151015204512" alt="Galadriel">
+                    <h3>Galadriel</h3>
+                    <p>Héroe élfico de Rivendel, protector de la casa de Elrond.</p>
+                </div>
+            </div>
         </div>
 
+        <!-- Grupo de Enanos -->
         <div class="grupo">
-            <a href="enanos.html" class="grupo-link">
-                <h2>Enanos</h2>
-                <p>Valientes guerreros y exploradores de minas.</p>
-            </a>
+            <h2>Enanos</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://as01.epimg.net/epik/imagenes/2017/06/07/portada/1496856474_535425_1496856734_noticia_normal.jpg" alt="Gimli">
+                    <h3>Gimli</h3>
+                    <p>Valiente guerrero y guía en minas y montañas, experto en territorios enanos.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://sm.ign.com/ign_es/feature/t/the-lord-o/the-lord-of-the-rings-the-rings-of-power-what-durins-discove_fpxj.jpg" alt="Durin">
+                    <h3>Durin</h3>
+                    <p>Legendario fundador del reino de Khazad-dûm, experto en historia enana.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Dain-as-king.jpg" alt="Dáin">
+                    <h3>Dáin</h3>
+                    <p>Rey bajo la montaña, experto en cultura enana y defensa.</p>
+                </div>
+            </div>
         </div>
 
+        <!-- Grupo de Orcos -->
         <div class="grupo">
-            <a href="orcos.html" class="grupo-link">
-                <h2>Orcos</h2>
-                <p>Guías en tierras oscuras y peligrosas.</p>
-            </a>
+            <h2>Orcos</h2>
+            <div class="guia-container">
+                <div class="guia">
+                    <img src="https://img.europapress.es/fotoweb/fotonoticia_20210430173523_1200.jpg" alt="Uglúk">
+                    <h3>Uglúk</h3>
+                    <p>Guía en las tierras oscuras y peligrosas, conoce los caminos de Mordor.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://fragstore.com/images/detailed/164/0_2556_b41eb68581ff30f7b66a0567682ad795.jpeg" alt="Lurtz">
+                    <h3>Lurtz</h3>
+                    <p>Experto en combate, ideal para viajes en zonas hostiles y territorio orco.</p>
+                </div>
+                <div class="guia">
+                    <img src="https://preview.redd.it/dcxeot4pmso91.jpg?width=640&crop=smart&auto=webp&s=45ffb46404c84e613e88dbb1414a4f888e61129c" alt="Gorbag">
+                    <h3>Gorbag</h3>
+                    <p>Astuto orco de Minas Morgul, conoce las rutas de Mordor.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Viajes por la Tierra Media. Todos los derechos reservados.</p>
             <p>Síguenos en redes sociales:</p>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
-</body>
 
 </html>
