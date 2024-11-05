@@ -1,9 +1,8 @@
-
+/* Reset general */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
 body {
     background-color: #f4f4f9;
@@ -11,12 +10,13 @@ body {
     line-height: 1.6;
 }
 
-.contacto {
+/* Sección de reserva */
+.reserva {
     padding: 40px 20px;
     text-align: center;
 }
 
-.contacto h2 {
+.reserva h2 {
     font-size: 32px;
     color: #2b3a3f;
     margin-bottom: 24px;
@@ -41,7 +41,7 @@ body {
 }
 
 .formulario input,
-.formulario textarea {
+.formulario select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -50,6 +50,7 @@ body {
     font-size: 16px;
 }
 
+/* Botón de Confirmación */
 .button {
     background-color: #a17a31;
     color: #ffffff;
@@ -70,10 +71,10 @@ body {
 }
 
 /* Mensaje de confirmación */
-.mensaje-enviado {
+.mensaje-reserva {
     color: #5e4529;
     font-size: 18px;
     margin-top: 20px;
     font-weight: bold;
+    text-align: center;
 }
-

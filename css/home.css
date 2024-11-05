@@ -1,3 +1,4 @@
+/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #e0e2db; /* Texto blanco piedra */
+    color: #e0e2db;
     text-align: center;
     padding: 32px;
 }
@@ -22,13 +23,13 @@
 .hero-banner h1 {
     font-size: 48px;
     margin-bottom: 16px;
-    color: #ece1c6; /* Beige cálido para el título */
+    color: #ece1c6;
 }
 
 .hero-banner p {
     font-size: 24px;
     margin-bottom: 32px;
-    color: #d4cfc9; /* Beige claro para subtítulo */
+    color: #d4cfc9;
 }
 
 /* Botones de llamada a la acción */
@@ -38,7 +39,7 @@
 }
 
 .hero-banner .cta-buttons a {
-    background-color: #a17a31; /* Fondo dorado envejecido */
+    background-color: #a17a31;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 5px;
@@ -48,8 +49,29 @@
 }
 
 .hero-banner .cta-buttons a:hover {
-    background-color: #7f6122; /* Dorado más oscuro en hover */
+    background-color: #7f6122;
 }
+
+/* Botón grande de reserva */
+.button-reserva {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #a17a31; /* Marrón oscuro */
+    color: #ffffff;
+    padding: 16px 32px;
+    font-size: 34px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.button-reserva:hover {
+    background-color: #7f6122; /* Marrón más oscuro en hover */
+    transform: scale(1.1); /* Efecto de agrandamiento */
+}
+
 
 /* Sección de Destinos Populares */
 .destinos-populares {
