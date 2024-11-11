@@ -1,0 +1,43 @@
+1. PÁGINA PRINCIPAL
+Esta página servirá como página de aterrizaje del blog, mostrando una lista de
+artículos recientes, categorías y una barra de búsqueda. Debe tener un diseño
+diseño atractivo y permitir a los usuarios navegar fácilmente por el contenido.
+: Logotipo del blog y menú de navegación (Inicio, Categorías, Quiénes somos, Contacto).
+: Una imagen destacada con un título y una breve descripción del blog.
+: Fichas para cada artículo que incluyen:
+Título del artículo.
+Imagen destacada.
+Extracto o resumen.
+Fecha de publicación y autor.
+Enlace al artículo completo.
+Categorías, etiquetas y barra de búsqueda: Información de contacto, enlaces a redes sociales y aviso de copyright.2.
+
+2. PLANTILLA DE ARTÍCULO
+Esta página mostrará el contenido completo de un artículo. Debe incluir elementos que mejoren la legibilidad y la interacción con el usuario.
+:
+: Igual que en la página de inicio.
+: Destacado en la parte superior.
+: Información sobre el autor, la fecha de publicación y la categoría.
+: Texto completo, imágenes y vídeos relevantes.
+: Un formulario para que los usuarios dejen comentarios y una lista de los comentarios existentes.
+: Visualización de otros artículos que puedan interesar al lector, con enlaces a dichos artículos.
+: Igual que en la página de inicio.
+
+3. PÁGINA DEL AUTOR
+Esta página presentará a un personaje ficticio de la Tierra Media (Bilbo Bolsón), proporcionando a los lectores información sobre la trayectoria del autor y su conexión con el contenido del blog.
+: «Sobre el autor» o «Conozca a [nombre del autor]»
+: Una imagen o ilustración del autor que capte su esencia y su conexión con la Tierra Media (por ejemplo, un elfo, un mago o un aventurero).
+: Un párrafo que describa quién es el autor, su historia y su relación con la Tierra Media. Puede incluir:
+Antecedentes del autor (por ejemplo, «Nacido en Rivendel, creció rodeado de magia y aventuras»).
+Intereses y pasiones (por ejemplo, «Me apasiona explorar las antiguas ruinas y leyendas de la Tierra Media»).
+Un toque personal que conecte al autor con su público (por ejemplo, «Siempre dispuesto a compartir las historias de sus viajes con sus seguidores»).
+: Enlaces a las redes sociales del autor, como:
+Instagram, Twitter, Facebook o un canal ficticio de YouTube.
+Un botón o enlace para contactar directamente con ellos (podría ser un correo electrónico ficticio o un formulario de contacto).
+: Una breve sección en la que se mencionen logros notables del autor, como:
+Libros publicados sobre la Tierra Media.
+Apariciones en conferencias o eventos relacionados.
+Premios o reconocimientos que haya recibido (pueden ser ficticios).
+: Una cita inspiradora del autor que resuene con su enfoque y el tema del blog (por ejemplo, «La aventura está sólo a un sueño de distancia para aquellos que se atreven a soñar»).: Una sección que incluya enlaces a los artículos más populares o recientes escritos por el autor, facilitando la navegación hacia su obra.
+
+Traducción realizada con la versión gratuita del traductor DeepL.com
