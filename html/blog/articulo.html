@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de la Tierra Media</title>
+    <title>Título del Artículo</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -12,7 +12,7 @@
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
             <!-- Logo -->
             <div class="flex items-center">
-                <img src="../img/logoblog.webp" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4">
+                <img src="/mnt/data/A_logo_for_a_travel_blog_inspired_by_journeys_thro.png" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4">
                 <span class="text-2xl font-bold">Tierra Media Blog</span>
             </div>
             <!-- Navigation and Search Bar -->
@@ -30,25 +30,30 @@
 
     <!-- Main Content -->
     <main class="container mx-auto py-8 px-6">
-        <!-- Featured Image and Description -->
-        <section class="mb-8">
-            <div class="bg-cover bg-center h-64 rounded-lg" style="background-image: url('https://via.placeholder.com/1200x400');"></div>
-            <h1 class="text-4xl font-bold mt-4">Bienvenido al Blog de la Tierra Media</h1>
-            <p class="text-gray-600 mt-2">Descubre historias, leyendas y aventuras de la Tierra Media.</p>
-        </section>
-
-        <!-- Articles -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Article Card -->
-            <div class="bg-white rounded-lg shadow-md p-4">
-                <img src="https://via.placeholder.com/300" alt="Article Image" class="rounded-t-lg w-full h-40 object-cover">
-                <h2 class="text-2xl font-bold mt-2">Título del Artículo</h2>
-                <p class="text-gray-600 mt-1">Resumen breve del contenido del artículo...</p>
-                <p class="text-sm text-gray-500 mt-1">Publicado el 10 de noviembre de 2024 por Autor Ejemplo</p>
-                <a href="#" class="text-blue-500 mt-2 block">Leer más</a>
-            </div>
-            <!-- Repeat for more articles -->
-        </section>
+        <article>
+            <header>
+                <h1 class="text-4xl font-bold">Título del Artículo</h1>
+                <p class="text-gray-500 mt-2">Publicado el 10 de noviembre de 2024 por <a href="pagina_autor.html" class="text-blue-500 hover:underline">Autor Ejemplo</a> | Categoría: Aventuras</p>
+            </header>
+            <section class="mt-6">
+                <img src="https://via.placeholder.com/800x400" alt="Featured Image" class="rounded-lg">
+                <p class="mt-4">Contenido completo del artículo aquí. Este texto puede incluir más información, imágenes o vídeos relevantes.</p>
+            </section>
+            <!-- Comments Section -->
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold">Comentarios</h2>
+                <!-- Formulario de comentarios -->
+                <form class="mt-4">
+                    <textarea placeholder="Deja tu comentario aquí" class="w-full border rounded-lg p-2"></textarea>
+                    <button type="submit" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg">Enviar</button>
+                </form>
+                <!-- Lista de comentarios -->
+                <div class="mt-4">
+                    <p class="font-bold">Usuario Ejemplo:</p>
+                    <p>¡Excelente artículo!</p>
+                </div>
+            </section>
+        </article>
     </main>
 
     <!-- Footer -->
