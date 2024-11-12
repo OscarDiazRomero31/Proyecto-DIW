@@ -7,7 +7,7 @@
 
 /* Banner Principal */
 .hero-banner {
-    background-image: url('../img/hero.webp');
+    background-image: url('../../img/paginaPrincipalIMG/hero.webp');
     background-size: cover;
     background-position: center;
     height: 90vh;
