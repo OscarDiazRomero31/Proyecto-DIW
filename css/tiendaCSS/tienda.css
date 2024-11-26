@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    background-color: #f4f8e9; /* Verde claro suave */
+    color: #2d3a2c; /* Texto en verde oscuro para buen contraste */
+}
+
+.navbar, .footer {
+    background-color: #4a6c4f; /* Verde oscuro */
+}
+
+.navbar a, .footer a, .footer p {
+    color: #f9f1dc; /* Dorado claro */
+    text-shadow: 1px 1px 2px #2d3a2c; /* Sombra para mejor visibilidad */
+}
+
+.navbar a:hover {
+    color: #ffffff; /* Blanco al pasar el ratón por encima */
+}
+
+h1, h2, h4 {
+    color: #2d3a2c; /* Verde oscuro */
+    text-shadow: 1px 1px 2px #ffffff; /* Sombras blancas para destacar títulos */
+}
+
+p, .card-text {
+    color: #2d3a2c; /* Verde oscuro para texto */
+}
+
+.btn-custom {
+    background-color: #6e8b6a;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #4a6c4f;
+}
+
+.table th, .table td {
+    color: #2d3a2c; /* Texto verde oscuro en tablas */
+}
+
+input, select {
+    border-color: #6e8b6a;
+    background-color: #ffffff;
+    color: #2d3a2c;
+}
+
+input:focus, select:focus {
+    border-color: #4a6c4f;
+    box-shadow: 0 0 5px #4a6c4f;
+}
+
+.banner {
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex; /* Centra el contenido dentro del banner */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Texto blanco para mejor visibilidad */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombras al texto */
+}
+
+/* Hacer que todo el contenedor sea clicable */
+.card-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Mantiene los colores originales del texto */
+    display: block; /* Asegura que el enlace abarque todo el contenedor */
+}
+
+/* Cambia el color del contenedor al pasar el mouse */
+.card-link:hover .card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    transform: scale(1.02); /* Pequeño efecto de aumento */
+    transition: all 0.2s ease-in-out; /* Suaviza la animación */
+}

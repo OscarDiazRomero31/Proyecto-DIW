@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Tierra Media</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tierra Media</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mi cuenta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrito -->
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Tu Carrito</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio Unitario</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anillo Único</td>
+                        <td>$100.00</td>
+                        <td>
+                            <input type="number" class="form-control" value="1" min="1">
+                        </td>
+                        <td>$100.00</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Repite según necesidad -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Resumen del Pedido -->
+        <div class="text-end">
+            <h4>Total: $100.00</h4>
+            <button class="btn btn-custom me-2">Continuar Comprando</button>
+            <button class="btn btn-custom">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-3">
+        <p>&copy; 2024 Tierra Media. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
