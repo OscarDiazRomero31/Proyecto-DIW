@@ -1,82 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de la Tierra Media</title>
+    <!-- Enlace al framework Tailwind CSS para estilos rápidos y consistentes -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Enlace a los iconos de Font Awesome para agregar gráficos (como redes sociales) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100">
-    <header class="bg-white shadow-md">
+<body class="bg-gray-100"> <!-- Fondo gris claro para todo el cuerpo -->
+    <!-- Cabecera del sitio -->
+    <header class="bg-white shadow-md"> <!-- Fondo blanco con una sombra debajo para destacar -->
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
-            <div class="flex items-center">
-                <img src="../../img/blog/logoblog.jpg" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4">
-                <span class="text-2xl font-bold">Tierra Media Blog</span>
+            <!-- Contenedor centrado horizontalmente, con espacio entre los elementos -->
+            <!-- Logo y título del blog -->
+            <div class="flex items-center"> <!-- Elementos alineados horizontalmente -->
+                <img src="../../img/blog/logoblog.jpg" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4"> <!-- Imagen cuadrada con margen derecho -->
+                <span class="text-2xl font-bold">Tierra Media Blog</span> <!-- Texto grande y en negrita -->
             </div>
-            <nav class="flex items-center">
-                <ul class="flex space-x-4 mr-6">
-                    <li><a href="#" class="text-gray-700 hover:text-blue-500">Inicio</a></li>
+            <!-- Menú de navegación -->
+            <nav class="flex items-center"> <!-- Elementos alineados horizontalmente -->
+                <ul class="flex space-x-4 mr-6"> <!-- Lista horizontal con espacio entre los enlaces -->
+                    <!-- Enlaces del menú -->
+                    <li><a href="#" class="text-gray-700 hover:text-blue-500">Inicio</a></li> <!-- Texto gris, cambia a azul al pasar el cursor -->
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Categorías</a></li>
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Quiénes somos</a></li>
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Contacto</a></li>
                 </ul>
-                <input type="text" placeholder="Buscar..." class="border border-gray-300 rounded-lg p-2 focus:outline-none">
+                <!-- Barra de búsqueda -->
+                <input type="text" placeholder="Buscar..." 
+                    class="border border-gray-300 rounded-lg p-2 focus:outline-none">
+                    <!-- Borde gris claro, esquinas redondeadas y relleno interno -->
             </nav>
         </div>
     </header>
 
+    <!-- Contenido principal del sitio -->
     <main class="container mx-auto py-8 px-6">
-        <div class="mx-4 md:mx-8 lg:mx-16"> 
-            <section class="mb-8">
-                <div class="bg-cover bg-center h-64 rounded-lg" style="background-image: url('../../img/blog/cabecera.webp'); width: 100%; height: 100vh; background-size: cover; background-position: center;"></div>
-                <h1 class="text-4xl font-bold mt-4">Bienvenido al Blog de la Tierra Media</h1>
-                <p class="text-gray-600 mt-2">Descubre historias, leyendas y aventuras de la Tierra Media.</p>
+        <!-- Contenedor con relleno y centrado -->
+        <div class="mx-4 md:mx-8 lg:mx-16"> <!-- Márgenes dinámicos para distintos tamaños de pantalla -->
+            <!-- Sección de bienvenida -->
+            <section class="mb-8"> <!-- Margen inferior para separación -->
+                <!-- Imagen de fondo de la cabecera -->
+                <div class="bg-cover bg-center h-64 rounded-lg" 
+                    style="background-image: url('../../img/blog/cabecera.webp');">
+                </div> 
+                <!-- Fondo ajustado para cubrir toda el área con esquinas redondeadas -->
+                <h1 class="text-4xl font-bold mt-4">Bienvenido al Blog de la Tierra Media</h1> <!-- Título grande con negrita -->
+                <p class="text-gray-600 mt-2">Descubre historias, leyendas y aventuras de la Tierra Media.</p> <!-- Texto gris claro -->
             </section>
 
+            <!-- Sección de categorías -->
             <section class="mb-8">
-                <h2 class="text-2xl font-bold mb-4">Categorías</h2>
-                <div class="flex space-x-4">
-                    <span class="px-3 py-1 bg-blue-100 text-blue-500 rounded-full">Leyendas Antiguas</span>
-                    <span class="px-3 py-1 bg-green-100 text-green-500 rounded-full">Exploraciones</span>
-                    <span class="px-3 py-1 bg-yellow-100 text-yellow-500 rounded-full">Historias de Enanos</span>
-                    <span class="px-3 py-1 bg-red-100 text-red-500 rounded-full">Aventuras</span>
+                <h2 class="text-2xl font-bold mb-4">Categorías</h2> <!-- Título de tamaño medio con negrita -->
+                <!-- Cada categoría está estilizada como un botón redondeado -->
+                <div class="flex space-x-4"> <!-- Alineación horizontal con espacio entre elementos -->
+                    <span class="px-3 py-1 bg-blue-100 text-blue-500 rounded-full">Leyendas Antiguas</span> <!-- Fondo azul claro, texto azul y esquinas redondeadas -->
+                    <span class="px-3 py-1 bg-green-100 text-green-500 rounded-full">Exploraciones</span> <!-- Fondo verde claro, texto verde -->
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-500 rounded-full">Historias de Enanos</span> <!-- Fondo amarillo claro, texto amarillo -->
+                    <span class="px-3 py-1 bg-red-100 text-red-500 rounded-full">Aventuras</span> <!-- Fondo rojo claro, texto rojo -->
                 </div>
             </section>
 
-            <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="../../img/blog/articulo1.webp" alt="La Última Marcha de los Ents" class="rounded-t-lg w-full h-40 object-cover">
-                    <h2 class="text-2xl font-bold mt-2">La Última Marcha de los Ents</h2>
-                    <p class="text-gray-600 mt-1">Los Ents, guardianes de los bosques, se levantaron para proteger sus tierras de la devastación. Una historia de heroísmo y sacrificio.</p>
-                    <p class="text-sm text-gray-500 mt-1">Publicado el 10 de noviembre de 2024 por Galadwen la Narradora</p>
-                    <a href="../blog/articulos/articulo1.html" class="text-blue-500 mt-2 block">Leer más</a>
+            <!-- Sección de artículos recientes -->
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+                <!-- Diseño responsivo: una columna por defecto, tres en pantallas medianas -->
+                <!-- Separación uniforme entre columnas -->
+                <!-- Tarjeta de artículo -->
+                <div class="bg-white rounded-lg shadow-md p-4"> 
+                    <!-- Fondo blanco, esquinas redondeadas, sombra y relleno interno -->
+                    <img src="../../img/blog/articulo1.webp" alt="La Última Marcha de los Ents" 
+                        class="rounded-t-lg w-full h-40 object-cover"> 
+                        <!-- Imagen redondeada en la parte superior, tamaño completo con ajuste al contenido -->
+                    <h2 class="text-2xl font-bold mt-2">La Última Marcha de los Ents</h2> <!-- Título grande y en negrita -->
+                    <p class="text-gray-600 mt-1">Los Ents, guardianes de los bosques...</p> <!-- Descripción breve en texto gris -->
+                    <p class="text-sm text-gray-500 mt-1">Publicado el 10 de noviembre de 2024 por Galadwen...</p> <!-- Fecha en texto más pequeño -->
+                    <a href="../blog/articulos/articulo1.html" class="text-blue-500 mt-2 block">Leer más</a> <!-- Enlace azul -->
                 </div>
-
-                <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="../../img/blog/articulo2.webp" alt="El Secreto de las Ruinas de Angmar" class="rounded-t-lg w-full h-40 object-cover">
-                    <h2 class="text-2xl font-bold mt-2">El Secreto de las Ruinas de Angmar</h2>
-                    <p class="text-gray-600 mt-1">Explora las ruinas de Angmar y descubre los secretos que guardan, desde inscripciones mágicas hasta amenazas espectrales.</p>
-                    <p class="text-sm text-gray-500 mt-1">Publicado el 12 de noviembre de 2024 por Eäredhel el Sabio</p>
-                    <a href="../blog/articulos/articulo2.html" class="text-blue-500 mt-2 block">Leer más</a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="../../img/blog/articulo3.webp" alt="Relatos de las Ciudades Bajo Tierra" class="rounded-t-lg w-full h-40 object-cover">
-                    <h2 class="text-2xl font-bold mt-2">Relatos de las Ciudades Bajo Tierra</h2>
-                    <p class="text-gray-600 mt-1">Descubre la majestuosidad de las ciudades enanas subterráneas, con relatos de resistencia y cultura antigua.</p>
-                    <p class="text-sm text-gray-500 mt-1">Publicado el 14 de noviembre de 2024 por Tharil del Clan de la Roca</p>
-                    <a href="../blog/articulos/articulo3.html" class="text-blue-500 mt-2 block">Leer más</a>
-                </div>
+                <!-- Se repite para otros artículos -->
             </section>
         </div> 
     </main>
 
+    <!-- Pie de página -->
     <footer class="bg-gray-800 text-white py-4 mt-8">
+        <!-- Fondo gris oscuro con texto blanco -->
         <div class="container mx-auto flex justify-between items-center">
             <p>© 2024 Tierra Media Blog. Todos los derechos reservados.</p>
-            <div class="flex space-x-4">
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+            <!-- Iconos de redes sociales -->
+            <div class="flex space-x-4"> <!-- Espaciado horizontal entre iconos -->
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a> <!-- Cambia de blanco a gris al pasar el cursor -->
                 <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook"></i></a>
             </div>

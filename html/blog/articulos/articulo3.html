@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos básicos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatos de las Ciudades Bajo Tierra</title>
+    <!-- Tailwind CSS: Framework para estilos rápidos y consistentes -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome: Para incluir iconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
 </head>
-<body class="bg-gray-100">
-    <header class="bg-white shadow-md">
+<body class="bg-gray-100"> <!-- Fondo gris claro para todo el cuerpo -->
+    <!-- Cabecera -->
+    <header class="bg-white shadow-md"> <!-- Fondo blanco con sombra -->
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
-            <div class="flex items-center">
-                <img src="../../../img/blog/logoblog.jpg" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4">
-                <span class="text-2xl font-bold">Tierra Media Blog</span>
+            <!-- Contenedor centrado horizontalmente con espacio entre los elementos -->
+            <div class="flex items-center"> <!-- Logo y título alineados horizontalmente -->
+                <img src="../../../img/blog/logoblog.jpg" alt="Tierra Media Blog Logo" class="h-12 w-12 mr-4"> <!-- Imagen cuadrada -->
+                <span class="text-2xl font-bold">Tierra Media Blog</span> <!-- Texto grande y en negrita -->
             </div>
-            <nav class="flex items-center">
-                <ul class="flex space-x-4 mr-6">
-                    <li><a href="../index_blog.html" class="text-gray-700 hover:text-blue-500">Inicio</a></li>
+            <nav class="flex items-center"> <!-- Menú de navegación -->
+                <ul class="flex space-x-4 mr-6"> <!-- Lista horizontal con espacio entre enlaces -->
+                    <li><a href="../index_blog.html" class="text-gray-700 hover:text-blue-500">Inicio</a></li> <!-- Enlace con color dinámico -->
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Categorías</a></li>
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Quiénes somos</a></li>
                     <li><a href="#" class="text-gray-700 hover:text-blue-500">Contacto</a></li>
                 </ul>
-                <input type="text" placeholder="Buscar..." class="border border-gray-300 rounded-lg p-2 focus:outline-none">
+                <input type="text" placeholder="Buscar..." class="border border-gray-300 rounded-lg p-2 focus:outline-none"> 
+                <!-- Borde gris claro, esquinas redondeadas y relleno interno -->
             </nav>
         </div>
     </header>
 
-    <main class="container mx-auto py-8 px-6">
+    <!-- Contenido principal -->
+    <main class="container mx-auto py-8 px-6"> <!-- Contenedor centrado con relleno -->
         <article>
+            <!-- Cabecera del artículo -->
             <header>
-                <h1 class="text-4xl font-bold">Relatos de las Ciudades Bajo Tierra</h1>
-                <p class="text-gray-500 mt-2">Publicado el 14 de noviembre de 2024 por <a href="../autor3.html" class="text-blue-500 hover:underline">Tharil del Clan de la Roca</a> | Categoría: Historias de Enanos</p>
+                <h1 class="text-4xl font-bold">Relatos de las Ciudades Bajo Tierra</h1> <!-- Título grande y en negrita -->
+                <p class="text-gray-500 mt-2">
+                    Publicado el 14 de noviembre de 2024 por 
+                    <a href="../autor3.html" class="text-blue-500 hover:underline">Tharil del Clan de la Roca</a> <!-- Enlace subrayado al pasar -->
+                    | Categoría: Historias de Enanos
+                </p>
             </header>
-            <section class="mt-6">
-                <img src="../../../img/blog/articulo3.webp" alt="Ciudades Subterráneas" class="rounded-lg">
-                <p class="mt-4">Muchos han oído de Khazad-dûm, pero pocas son las lenguas que narran los secretos de las ciudades menores. Desde grutas iluminadas por cristales encantados hasta cámaras ocultas con tesoros olvidados, los enanos han construido más de lo que el ojo de la superficie puede imaginar...</p>
-                <p>Uno de estos relatos, recogido por mis ancestros, cuenta la historia de la resistencia contra la Gran Oscuridad, cuando las llamas de la última forja intentaron mantener la luz viva...</p>
+            <!-- Sección de contenido del artículo -->
+            <section class="mt-6"> <!-- Margen superior para separación -->
+                <img src="../../../img/blog/articulo3.webp" alt="Ciudades Subterráneas" class="rounded-lg"> <!-- Imagen con esquinas redondeadas -->
+                <p class="mt-4">Muchos han oído de Khazad-dûm...</p> <!-- Párrafo con margen superior -->
+                <p>Uno de estos relatos, recogido por mis ancestros, cuenta la historia...</p>
             </section>
-            <section class="mt-8">
-                <h2 class="text-2xl font-bold">Comentarios</h2>
+            <!-- Sección de comentarios -->
+            <section class="mt-8"> <!-- Margen superior para separar la sección -->
+                <h2 class="text-2xl font-bold">Comentarios</h2> <!-- Título de la sección -->
                 <form class="mt-4">
-                    <textarea placeholder="Deja tu comentario aquí" class="w-full border rounded-lg p-2"></textarea>
-                    <button type="submit" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg">Enviar</button>
+                    <!-- Formulario para añadir comentarios -->
+                    <textarea placeholder="Deja tu comentario aquí" class="w-full border rounded-lg p-2"></textarea> 
+                    <!-- Caja de texto: Ancho completo, borde gris y esquinas redondeadas -->
+                    <button type="submit" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg">Enviar</button> 
+                    <!-- Botón azul con texto blanco y esquinas redondeadas -->
                 </form>
-                <div class="mt-4">
-                    <p class="font-bold">Dwalin Barbatruena:</p>
+                <!-- Comentarios existentes -->
+                <div class="mt-4"> <!-- Separación superior -->
+                    <p class="font-bold">Dwalin Barbatruena:</p> <!-- Autor del comentario en negrita -->
                     <p>¡Gran relato, Tharil! Siempre he sentido orgullo de nuestras raíces subterráneas.</p>
                 </div>
             </section>
         </article>
     </main>
 
-    <footer class="bg-gray-800 text-white py-4 mt-8">
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-white py-4 mt-8"> <!-- Fondo gris oscuro con texto blanco -->
         <div class="container mx-auto flex justify-between items-center">
+            <!-- Contenedor centrado horizontalmente con espacio entre texto y redes sociales -->
             <p>© 2024 Tierra Media Blog. Todos los derechos reservados.</p>
-            <div class="flex space-x-4">
-                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+            <div class="flex space-x-4"> <!-- Espaciado horizontal entre iconos -->
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a> <!-- Cambia a gris al pasar el cursor -->
                 <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook"></i></a>
             </div>

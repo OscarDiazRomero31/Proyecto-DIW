@@ -5,21 +5,20 @@
     box-sizing: border-box;
 }
 
-/* Estilos del header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 32px;
-    background-color: #2b3a3f; /* Fondo verde oscuro musgo */
-    color: #e0e2db; /* Texto blanco piedra */
+    background-color: #2b3a3f;
+    color: #e0e2db; 
 }
 
 header .logo img {
     width: 120px;
 }
 
-/* Navegación */
+
 
 nav .nav-links {
     list-style: none;
@@ -28,15 +27,15 @@ nav .nav-links {
 }
 
 nav .nav-links a {
-    color: #e0e2db; /* Color del texto blanco piedra */
+    color: #e0e2db; 
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px; /* Tamaño de letra aumentado */
+    font-size: 18px; 
     transition: color 0.3s;
 }
 
 nav .nav-links a:hover {
-    color: #a17a31; /* Dorado envejecido para hover */
+    color: #a17a31; 
 }
 
 

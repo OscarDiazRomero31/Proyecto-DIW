@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Banner Principal */
 .hero-banner {
     background-image: url('../../img/paginaPrincipalIMG/hero.webp');
     background-size: cover;
@@ -32,7 +31,7 @@
     color: #d4cfc9;
 }
 
-/* Botones de llamada a la acción */
+
 .hero-banner .cta-buttons {
     display: flex;
     gap: 16px;
@@ -52,11 +51,11 @@
     background-color: #7f6122;
 }
 
-/* Botón grande de reserva */
+
 .button-reserva {
     display: inline-block;
     margin-top: 30px;
-    background-color: #a17a31; /* Marrón oscuro */
+    background-color: #a17a31; 
     color: #ffffff;
     padding: 16px 32px;
     font-size: 34px;
@@ -68,14 +67,13 @@
 }
 
 .button-reserva:hover {
-    background-color: #7f6122; /* Marrón más oscuro en hover */
-    transform: scale(1.1); /* Efecto de agrandamiento */
+    background-color: #7f6122; 
+    transform: scale(1.1); 
 }
 
 
-/* Sección de Destinos Populares */
 .destinos-populares {
-    background-color: #d1cbc5; /* Fondo gris claro */
+    background-color: #d1cbc5; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -83,7 +81,7 @@
 .destinos-populares h2 {
     font-size: 36px;
     margin-bottom: 24px;
-    color: #2b3a3f; /* Verde oscuro musgo */
+    color: #2b3a3f;
 }
 
 .destinos-populares .destino {
@@ -100,7 +98,7 @@
 
 .destinos-populares .destino h3 {
     font-size: 24px;
-    color: #4a4e54; /* Gris piedra */
+    color: #4a4e54;
     margin: 16px 0 8px;
 }
 
@@ -109,9 +107,8 @@
     color: #4a4e54;
 }
 
-/* Sección de Paquetes de Viaje */
 .paquetes-viaje {
-    background-color: #d1cbc5; /* Fondo gris claro */
+    background-color: #d1cbc5; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -122,9 +119,8 @@
     margin-bottom: 24px;
 }
 
-/* Estilo general de la sección de Paquetes de Viaje */
 .paquetes-viaje {
-    background-color: #ece1c6; /* Fondo beige cálido */
+    background-color: #ece1c6; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -135,7 +131,6 @@
     margin-bottom: 24px;
 }
 
-/* Contenedor de los paquetes en disposición horizontal */
 .paquetes-contenedor {
     display: flex;
     gap: 20px;
@@ -143,19 +138,17 @@
     flex-wrap: wrap;
 }
 
-/* Estilo para cada paquete */
 .paquete {
-    background-color: #d1cbc5; /* Fondo gris claro */
+    background-color: #d1cbc5; 
     padding: 20px;
     border-radius: 8px;
     margin: 20px auto;
     width: 80%;
     max-width: 600px;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilo de la imagen dentro de cada paquete */
 .paquete img {
     width: 100%;
     height: auto;
@@ -163,25 +156,21 @@
     margin-bottom: 16px;
 }
 
-/* Título de cada paquete */
 .paquete h3 {
     font-size: 24px;
     color: #4a4e54;
     margin-bottom: 8px;
 }
 
-/* Descripción de cada paquete */
 .paquete p {
     font-size: 16px;
     color: #4a4e54;
     margin: 8px 0;
 }
 
-/* Botón dentro de cada paquete */
 .paquete .button {
     display: inline-block;
-    background-color: #a17a31; /* Fondo dorado envejecido */
-    color: #ffffff;
+    background-color: #a17a31; 
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -194,7 +183,6 @@
     background-color: #7f6122;
 }
 
-/* Estilo para el botón de "Ver todos los paquetes" */
 .ver-todos {
     margin-top: 20px;
 }
@@ -212,9 +200,8 @@
     background-color: #003d80;
 }
 
-/* Estilo para la sección de Servicios */
 .servicios {
-    background-color: #ece1c6; /* Fondo beige cálido */
+    background-color: #ece1c6; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -225,7 +212,6 @@
     margin-bottom: 24px;
 }
 
-/* Contenedor en columna para los servicios */
 .servicios-contenedor {
     display: flex;
     flex-direction: column;
@@ -233,7 +219,6 @@
     align-items: center;
 }
 
-/* Estilo para cada servicio */
 .servicio {
     display: flex;
     align-items: center;
@@ -242,7 +227,7 @@
     border-radius: 8px;
     width: 90%;
     max-width: 900px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: left;
 }
 
@@ -250,10 +235,9 @@
     width: 120px;
     height: auto;
     border-radius: 8px;
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-right: 20px; 
 }
 
-/* Estilo para el contenido de texto */
 .servicio-texto h3 {
     font-size: 24px;
     color: #4a4e54;
@@ -268,20 +252,18 @@
 
 
 
-/* Sección de Guías Especiales */
 .guias-especiales {
-    background-color: #d1cbc5; /* Fondo beige cálido */
+    background-color: #d1cbc5; 
     padding: 40px 20px;
     text-align: center;
 }
 
 .guias-especiales h2 {
     font-size: 36px;
-    color: #2b3a3f; /* Verde oscuro musgo */
+    color: #2b3a3f; 
     margin-bottom: 24px;
 }
 
-/* Estilo para cada guía */
 .guia {
     display: inline-block;
     width: 30%;
@@ -293,13 +275,13 @@
 .guia img {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Imagen circular */
+    border-radius: 50%; 
     margin-bottom: 16px;
 }
 
 .guia h3 {
     font-size: 24px;
-    color: #4a4e54; /* Gris piedra */
+    color: #4a4e54; 
     margin-bottom: 8px;
 }
 
@@ -309,30 +291,28 @@
     padding: 0 10px;
 }
 
-/* Botón centrado para ver todos los guías */
 .guias-especiales div:last-child {
     text-align: center;
     margin-top: 20px;
 }
 
 .button {
-    background-color: #a17a31; /* Fondo dorado envejecido */
-    color: #ffffff; /* Texto blanco */
-    padding: 12px 24px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    text-decoration: none; /* Sin subrayado */
-    font-weight: bold; /* Texto en negrita */
+    background-color: #a17a31; 
+    color: #ffffff; 
+    padding: 12px 24px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold;
     display: inline-block;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #7f6122; /* Color dorado más oscuro en hover */
+    background-color: #7f6122; 
 }
 
 
 
-/* Sección de Testimonios */
 .testimonios {
     background-color: #ece1c6;
     padding: 40px 20px;

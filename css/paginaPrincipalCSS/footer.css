@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Estilos del footer */
+
 footer {
-    background-color: #2b3a3f; /* Fondo verde oscuro */
-    color: #e0e2db; /* Texto blanco piedra */
+    background-color: #2b3a3f;
+    color: #e0e2db; 
     padding: 24px 32px;
     text-align: center;
 }
@@ -17,7 +17,7 @@ footer {
     margin: 8px 0;
 }
 
-/* Iconos de redes sociales */
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -35,14 +35,14 @@ footer {
 }
 
 .social-icons a {
-    color: #e0e2db; /* Color de los iconos */
-    font-size: 24px; /* Tamaño de los iconos */
-    margin: 0 10px; /* Espaciado entre iconos */
+    color: #e0e2db; 
+    font-size: 24px;
+    margin: 0 10px;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #a17a31; /* Color de hover en dorado envejecido */
+    color: #a17a31; 
 }
 
 /* Media queries para móviles */

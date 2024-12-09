@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
 body {
     background-color: #f4f4f9;
@@ -10,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Sección de reserva */
 .reserva {
     padding: 40px 20px;
     text-align: center;
@@ -22,7 +22,6 @@ body {
     margin-bottom: 24px;
 }
 
-/* Formulario */
 .formulario {
     background-color: #e0d8c3;
     padding: 20px;
@@ -50,7 +49,6 @@ body {
     font-size: 16px;
 }
 
-/* Botón de Confirmación */
 .button {
     background-color: #a17a31;
     color: #ffffff;
@@ -70,7 +68,6 @@ body {
     background-color: #7f6122;
 }
 
-/* Mensaje de confirmación */
 .mensaje-reserva {
     color: #5e4529;
     font-size: 18px;

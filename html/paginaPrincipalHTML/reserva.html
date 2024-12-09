@@ -31,15 +31,12 @@
         </nav>
     </header>
 
-    <!-- Formulario de Reserva -->
     <section class="reserva">
         <h2>Reserva tu Aventura en la Tierra Media</h2>
         <form id="reservaForm" class="formulario">
-            <!-- Selección de fecha -->
             <label for="fecha">Selecciona la Fecha de tu Reserva</label>
             <input type="date" id="fecha" name="fecha" required>
 
-            <!-- Selección de destino -->
             <label for="destino">Destino</label>
             <select id="destino" name="destino" required>
                 <option value="" disabled selected>Elige un destino</option>
@@ -57,7 +54,6 @@
                 <option value="valle">Valle de Anduin</option>
             </select>
 
-            <!-- Selección de paquete de experiencia -->
             <label for="paquete">Paquete de Experiencia</label>
             <select id="paquete" name="paquete" required>
                 <option value="" disabled selected>Elige un paquete</option>
@@ -68,7 +64,6 @@
                 <option value="viaje">Viaje a las Cuevas de Aglarond</option>
             </select>
 
-            <!-- Selección de guía -->
             <label for="guia">Guía</label>
             <select id="guia" name="guia" required>
                 <option value="" disabled selected>Elige un guía</option>
@@ -93,7 +88,6 @@
                 
             </select>
 
-            <!-- Selección de alojamiento -->
             <label for="alojamiento">Alojamiento</label>
             <select id="alojamiento" name="alojamiento" required>
                 <option value="" disabled selected>Elige un alojamiento</option>
@@ -103,11 +97,9 @@
                 <option value="minas-hotel">Hotel en Minas Tirith</option>
             </select>
 
-            <!-- Botón de confirmación -->
             <button type="submit" class="button">Confirmar Reserva</button>
         </form>
 
-        <!-- Mensaje de confirmación -->
         <p id="mensajeReserva" class="mensaje-reserva" style="display: none;">
             ¡Gracias por confiar en nosotros! Tu reserva ha sido realizada con éxito.
         </p>
@@ -128,9 +120,12 @@
     <script>
         // Función para mostrar mensaje de confirmación al enviar el formulario
         document.getElementById('reservaForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            document.getElementById('mensajeReserva').style.display = 'block';
-        });
+        // Prevenimos el comportamiento predeterminado del formulario (evita recargar la página)
+        event.preventDefault();
+    
+        // Mostramos un mensaje de confirmación cambiando el estilo del elemento con id 'mensajeReserva'
+        document.getElementById('mensajeReserva').style.display = 'block';
+});
     </script>
 </body>
 

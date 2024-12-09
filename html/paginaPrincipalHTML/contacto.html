@@ -30,7 +30,6 @@
         </nav>
     </header>
 
-    <!-- Formulario de contacto -->
     <section class="contacto">
         <h2>Envíanos un mensaje</h2>
         <form id="contactForm" class="formulario">
@@ -49,7 +48,6 @@
             <button type="submit" class="button">Enviar</button>
         </form>
 
-        <!-- Mensaje de confirmación -->
         <p id="mensajeEnviado" class="mensaje-enviado" style="display: none;">
             ¡Gracias! Tu mensaje ha sido enviado correctamente.
         </p>
@@ -70,9 +68,13 @@
     <script>
         // Función para mostrar mensaje de confirmación al enviar el formulario
         document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            document.getElementById('mensajeEnviado').style.display = 'block';
-        });
+        // Prevenimos el comportamiento predeterminado del formulario (que recarga la página)
+        event.preventDefault();
+    
+        // Mostramos un mensaje de confirmación cambiando el estilo del elemento con id 'mensajeEnviado'
+        document.getElementById('mensajeEnviado').style.display = 'block';
+});
+
     </script>
 </body>
 
